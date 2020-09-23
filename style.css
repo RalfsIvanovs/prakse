@@ -1,0 +1,109 @@
+
+
+/*main style*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+}
+
+#header{
+    height: 80px;
+    border-bottom: 1px ,solid ,black;
+    position: fixed;
+    background-color: orange;
+    width: 100%;
+    z-index: 9;
+}
+#footer{
+  position: fixed;
+  width: 100%;
+  background-color:green;
+  bottom:0;
+
+}
+.mainnav li {
+  display: inline;
+  padding: 20px;
+}
+
+.mainnav{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-copyright-area{
+  text-align: center;
+}
+
+/*teksta stils*/
+h1{
+ font-size: 60px;
+ font-family: Gotham;
+ font-weight: bold;
+}
+
+p{
+  font-size:15px;
+  font-family: Gotham;
+}
+
+
+/*sekcijas*/
+
+.sekciju-container{
+ padding-top: 120px;
+ text-align: center;
+ align-content: center;
+
+}
+
+.galerija{ float: left; width: 100%;
+
+ }
+.kontakti{ float: left; width: 100%;
+
+ }
+.parmums{ display: inline-block;float: left; width:100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+ }
+
+/*enkuri*/
+
+.enkurs-parmums{
+  margin-top: -300px;
+}
+.enkurs-galerija{
+
+}
+
+.enkurs-kontakti{
+
+}
+
+
+/*bildes*/
+.bilde-sadalai-parmums{
+  max-width:300px;
+  float: left;
+ vertical-align: middle;
+
+}
+.bilde-sadalai-galerija{
+  max-width:200px ;
+  display: inline;
+  float: left;
+
+}
+
+.galerijas-bildes{
+  float: left;
+  font-family: Gotham;
+  font-size: 10px;
+  font-style: italic;
+}
